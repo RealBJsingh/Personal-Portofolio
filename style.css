@@ -9,7 +9,7 @@ body {
     text-shadow: 10px;
 }
 .section {
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
     background-image: url("./img/top.png"); 
@@ -20,18 +20,21 @@ body {
 .top {
     background-image: url("./img/top.png"); 
     background-size: cover;
-    padding:15px;
+    padding:20px;
     margin-bottom: 10px;
     border-radius: 10px; 
     font-size: 20px;
     font-weight: 800px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 10px solid white;
+    border: 10px solid black;
     
 }
 img {
-  border-radius: 50%;
- 
+  object-fit: cover;
+  border-radius:30%;
+  width: 150px;
+  height: 150px; 
+  border: 3px solid black;
 }
 table {
     width: 100%;
