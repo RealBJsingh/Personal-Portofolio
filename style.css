@@ -1,6 +1,8 @@
 body {
     background-image: url("./img/bg.png"); 
-    background-size: cover;
+    background-size: cover; 
+    color: white;
+    
 }
 .quote {
     font-size: 12pt;
